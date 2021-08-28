@@ -1,0 +1,25 @@
+{
+  "name": "morressier-testing-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run-chrome": "cypress run --headless -b chrome",
+    "cy:run-firefox": "cypress run --headless -b firefox",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-onkar/morressier-testing-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-onkar/morressier-testing-task/issues"
+  },
+  "homepage": "https://github.com/a-onkar/morressier-testing-task#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.0",
+    "cypress": "^8.3.1"
+  }
+}
