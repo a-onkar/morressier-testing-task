@@ -1,1 +1,5 @@
-{}
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "baseUrl": "https://www.morressier.com/event/acsspring2020expo/5e733c5acde2b641284a7e27",
+  "defaultCommandTimeout": 10000
+}
