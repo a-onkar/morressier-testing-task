@@ -29,6 +29,18 @@ class EventLandingPage {
       .should('be.visible');
   }
 
+getFilterButton() {
+    return cy.get('button > span').eq(0).should('be.visible');
+  }
+
+  selectFilteringOption(name){
+    cy.findByText(name).should('be.visible').click();
+  }
+
+  getCloseButton(){
+    return cy.get('button').contains('Close').should('be.visible');
+  }
+
   checkSubmissionDisplayed(name) {
     cy.get(this.itemInGrid).each(($list, index) => {
       const item = $list.text();
